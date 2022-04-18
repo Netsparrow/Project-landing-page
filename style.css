@@ -55,6 +55,7 @@ body {
  .htwo-message {                 
      font-size: 18px;
      color: #E5E7EB;
+     padding-bottom: 10px;
  }
 
  .htwoimg {                         /*!!!!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -68,6 +69,31 @@ body {
 
 .middle {
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 100px 30px 100px;
+}
+
+.middle-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    padding: 30px;
+}
+.middle-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 40px;
+}   
+
+.img {
+   flex-wrap: wrap;
+}
+.text {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -109,4 +135,13 @@ button {
 .header-img {
     width: 200px;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic  {
+    width: auto;
+    height: 80px;
+    border:2px solid #3882F6;
 }
